@@ -4,12 +4,13 @@
 	"description": "Landing page for natours",
 	"main": "index.js",
 	"scripts": {
-		"compile:sass": "node-sass sass/main.scss css/style.css -w"
+		"compile:sass": "node-sass sass/main.scss css/style.css -w",
+		"start": "lite-server"
 	},
 	"author": "Yakup",
 	"license": "ISC",
 	"devDependencies": {
+		"lite-server": "^2.6.1",
 		"node-sass": "^6.0.1"
-	},
-	"dependencies": {}
+	}
 }
